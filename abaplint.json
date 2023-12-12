@@ -341,12 +341,7 @@
     },
     "reduce_string_templates": true,
     "release_idoc": true,
-    "remove_descriptions": {
-      "exclude": [],
-      "severity": "Warning",
-      "ignoreExceptions": false,
-      "ignoreWorkflow": true
-    },
+    "remove_descriptions": false,
     "rfc_Warning_handling": true,
     "selection_screen_naming": {
       "exclude": [],

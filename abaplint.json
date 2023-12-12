@@ -21,7 +21,7 @@
   },
   "syntax": {
     "version": "v740sp08",
-    "errorNamespace": "^(Z|Y|LCL_|TY_|LIF_)",
+    "WarningNamespace": "^(Z|Y|LCL_|TY_|LIF_)",
     "globalConstants": [],
     "globalMacros": []
   },
@@ -31,13 +31,13 @@
     "allowed_object_naming": true,
     "allowed_object_types": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "allowed": []
     },
     "ambiguous_statement": true,
     "avoid_use": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "define": true,
       "endselect": true,
       "execSQL": true,
@@ -54,7 +54,7 @@
     "call_transaction_authority_check": true,
     "chain_mainly_declarations": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "definitions": true,
       "write": true,
       "move": true,
@@ -69,7 +69,7 @@
     "check_abstract": true,
     "check_comments": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "allowEndOfLine": false
     },
     "check_ddic": true,
@@ -77,7 +77,7 @@
     "check_no_handler_pragma": true,
     "check_subrc": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "openDataset": true,
       "authorityCheck": true,
       "selectSingle": true,
@@ -93,7 +93,7 @@
     "check_transformation_exists": true,
     "class_attribute_names": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "patternKind": "required",
       "ignoreNames": [],
       "ignorePatterns": [],
@@ -108,25 +108,25 @@
     "colon_missing_space": true,
     "commented_code": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "allowIncludeInFugr": true
     },
     "constructor_visibility_public": true,
     "contains_tab": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "spaces": 1
     },
     "cyclomatic_complexity": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "max": 20
     },
     "definitions_top": true,
     "description_empty": true,
     "double_space": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "keywords": true,
       "startParen": true,
       "endParen": true,
@@ -135,13 +135,13 @@
     "downport": true,
     "empty_line_in_statement": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "allowChained": false
     },
     "empty_statement": true,
     "empty_structure": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "loop": true,
       "if": true,
       "while": true,
@@ -155,12 +155,12 @@
     "exporting": true,
     "forbidden_identifier": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "check": []
     },
     "forbidden_pseudo_and_pragma": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "pseudo": [],
       "pragmas": [],
       "ignoreGlobalClassDefinition": false,
@@ -168,19 +168,19 @@
     },
     "forbidden_void_type": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "check": []
     },
     "form_tables_obsolete": true,
     "fully_type_constants": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "checkData": true
     },
     "function_module_recommendations": true,
     "functional_writing": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "ignoreExceptions": true
     },
     "global_class": true,
@@ -191,12 +191,12 @@
     "implement_methods": true,
     "in_statement_indentation": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "ignoreExceptions": true
     },
     "indentation": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "ignoreExceptions": true,
       "alignTryCatch": false,
       "globalClassSkipFirst": false,
@@ -207,12 +207,12 @@
     "intf_referencing_clas": true,
     "keep_single_parameter_on_one_line": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "length": 120
     },
     "keyword_case": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "style": "upper",
       "ignoreExceptions": true,
       "ignoreLowerClassImplmentationStatement": true,
@@ -226,17 +226,17 @@
     "line_break_style": false,
     "line_length": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "length": 120
     },
     "line_only_punc": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "ignoreExceptions": true
     },
     "local_class_naming": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "patternKind": "required",
       "ignoreNames": [],
       "ignorePatterns": [],
@@ -252,9 +252,9 @@
     "message_exists": true,
     "method_length": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "statements": 100,
-      "errorWhenEmpty": true,
+      "WarningWhenEmpty": true,
       "ignoreTestClasses": false
     },
     "method_overwrites_builtin": true,
@@ -266,12 +266,12 @@
     "newline_between_methods": true,
     "no_public_attributes": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "allowReadOnly": false
     },
     "object_naming": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "patternKind": "required",
       "ignoreNames": [],
       "ignorePatterns": [],
@@ -296,7 +296,7 @@
     },
     "obsolete_statement": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "refresh": true,
       "compute": true,
       "add": true,
@@ -315,7 +315,7 @@
     "omit_parameter_name": true,
     "omit_receiving": true,
     "parser_702_chaining": true,
-    "parser_error": true,
+    "parser_Warning": true,
     "parser_missing_space": true,
     "prefer_inline": true,
     "prefer_is_not": true,
@@ -323,7 +323,7 @@
     "prefer_xsdbool": true,
     "preferred_compare_operator": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "badOperators": [
         "EQ",
         "><",
@@ -336,21 +336,21 @@
     },
     "prefix_is_current_class": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "omitMeInstanceCalls": true
     },
     "reduce_string_templates": true,
     "release_idoc": true,
     "remove_descriptions": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "ignoreExceptions": false,
       "ignoreWorkflow": true
     },
-    "rfc_error_handling": true,
+    "rfc_Warning_handling": true,
     "selection_screen_naming": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "patternKind": "required",
       "ignoreNames": [],
       "ignorePatterns": [],
@@ -359,12 +359,12 @@
     },
     "sequential_blank": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "lines": 4
     },
     "short_case": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "length": 1,
       "allow": []
     },
@@ -372,7 +372,7 @@
     "space_before_colon": true,
     "space_before_dot": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "ignoreGlobalDefinition": true,
       "ignoreExceptions": true
     },
@@ -385,7 +385,7 @@
     "type_form_parameters": true,
     "types_naming": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "pattern": "^TY_.+$"
     },
     "unknown_types": true,
@@ -393,12 +393,12 @@
     "unused_methods": true,
     "unused_types": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "skipNames": []
     },
     "unused_variables": {
       "exclude": [],
-      "severity": "Error",
+      "severity": "Warning",
       "skipNames": []
     },
     "use_bool_expression": true,

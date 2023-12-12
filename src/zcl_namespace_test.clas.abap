@@ -5,9 +5,11 @@ class ZCL_NAMESPACE_TEST definition
 
 public section.
 
-  methods ONE .
-protected section.
-private section.
+  methods ONE
+    importing
+      !I_INPUT type STRING .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
@@ -15,6 +17,9 @@ ENDCLASS.
 CLASS ZCL_NAMESPACE_TEST IMPLEMENTATION.
 
 
-  method ONE.
-  endmethod.
+  METHOD one.
+    IF i_input IS INITIAL.
+      RETURN.
+    ENDIF.
+  ENDMETHOD.
 ENDCLASS.

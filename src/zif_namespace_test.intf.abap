@@ -1,14 +1,14 @@
-interface ZIF_NAMESPACE_TEST
-  public .
+INTERFACE zif_namespace_test
+  PUBLIC .
 
 
-  methods SET
-    importing
-      !I_PARAM type CLIKE
-      !I_VALUE type CLIKE .
-  methods GET
-    importing
-      !I_PARAM type CLIKE
-    returning
-      value(E_VALUE) type STRING .
-endinterface.
+  METHODS set
+    IMPORTING
+      !i_param TYPE clike
+      !i_value TYPE clike .
+  METHODS get
+    IMPORTING
+      !i_param       TYPE clike
+    RETURNING
+      VALUE(e_value) TYPE string .
+ENDINTERFACE.

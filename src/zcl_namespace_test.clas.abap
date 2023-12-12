@@ -1,13 +1,13 @@
-class ZCL_NAMESPACE_TEST definition
-  public
-  final
-  create public .
+CLASS zcl_namespace_test DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
+  PUBLIC SECTION.
 
-  methods ONE
-    importing
-      !I_INPUT type STRING .
+    METHODS one
+      IMPORTING
+        !i_input TYPE string .
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.

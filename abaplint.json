@@ -17,7 +17,7 @@
   "rename": {
     "output": "renamed",
     "skip": [],
-    "patterns": [{"type": "CLAS|INTF", "oldName": "z(cl|if)(.*)", "newName": "/akn/$1$2"}]
+    "patterns": [{"type": "CLAS|INTF", "oldName": "z(cl|if|cx)(.*)", "newName": "/akn/$1$2"}]
   },
   "syntax": {
     "version": "v740sp08",
